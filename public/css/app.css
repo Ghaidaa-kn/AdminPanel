@@ -2,9 +2,6 @@
 
 
     /*Login Signup Page*/
-    body{
-        /*overflow: hidden;*/
-    }
     a:focus,a:hover,a{
         outline:none;
         text-decoration: none;
@@ -21,15 +18,15 @@
     .header-top i {
         font-size: 18px;
     }
-    .bg-image {
+    /*.bg-image {
         background: url(../images/background-login.jpg) no-repeat 0 0 / cover;
         position: relative;
         width: 100%;
         height: 100vh;
         display: table;
-    }
+    }*/
 
-    .login-header {
+   /* .login-header {
         display: inline-block;
         width: 100%;
         background: #0e1a35;
@@ -46,9 +43,9 @@
         max-width: 171px;
         padding: 23px 15px 22px;
         width: 100%;
-    }
+    }*/
 
-    .login-header .navbar-right {
+    /*.login-header .navbar-right {
         margin-right: 0px;
     }
 
@@ -128,8 +125,8 @@
         margin-bottom: 30px;
         width: 100%;
     }
-
-    .user input {
+*/
+/*    .user input {
         background: rgba(0, 0, 0, 0) url("../images/user.png") no-repeat scroll 7px 12px;
     }
 
@@ -139,9 +136,9 @@
 
     .mail input {
         background: rgba(0, 0, 0, 0) url("../images/mail.png") no-repeat scroll 4px 12px;
-    }
+    }*/
 
-    .login-signup .tab-content {
+    /*.login-signup .tab-content {
         background: #ffffff none repeat scroll 0 0;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
         display: inline-block;
@@ -175,11 +172,11 @@
 
     .form-details {
         padding: 35px 0;
-    }
+    }*/
 
-    .tab-content .tab-pane {
+    /*.tab-content .tab-pane {
         padding: 70px 0;
-    }
+    }*/
 
 
     /*Login Signup Page*/
@@ -222,22 +219,22 @@
     .v-align {/*need*/
         vertical-align: top;
     }
-    .logo img {
+    /*.logo img {
         max-width: 180px;
         padding: 16px 0 17px;
         width: 100%;
-    }
+    }*/
 
     .header-top {
         margin: 0;
         padding-top: 2px;
     }
 
-    .header-top img {
+    /*.header-top img {
         border-radius: 50%;
         max-width: 48px !important;
         width: 100%;
-    }
+    }*/
 
     .add-one{
         background: #5584ff none repeat scroll 0 0;
@@ -258,7 +255,6 @@
     .add-one::before {
         /*background: rgba(0, 0, 0, 0) url("../images/plus.png") no-repeat scroll 0 0;*/
         content: "";
-        ;
         height: 12px;
         left: 17px;
         position: absolute;
@@ -309,7 +305,7 @@
         left: -85px;
         padding: 17px;
     }
-    .view {
+  /*  .view {
         background: #5584ff none repeat scroll 0 0;
         border-radius: 100px;
         color: #ffffff;
@@ -318,7 +314,7 @@
         font-weight: 600;
         margin-top: 10px;
         padding: 10px 15px;
-    }
+    }*/
 
     .navbar-content > span {
         font-size: 13px;
@@ -334,14 +330,14 @@
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
     }
-    .search input {
+    /*.search input {
         border: none;
         font-size: 15px;
         padding: 15px 9px;
         width: 100%;
         background: rgba(0, 0, 0, 0) url("../images/search.png") no-repeat scroll 99% 12px;
         color: #8492af;
-    }
+    }*/
 
     header {
         background: #ffffff none repeat scroll 0 0;
@@ -408,11 +404,11 @@
         background-color: #0e1a35;
     }
 
-    .circle-logo {
+   /* .circle-logo {
         margin: 0 auto;
         max-width: 30px !important;
         text-align: center;
-    }
+    }*/
     .hidden-xs{/*need*/
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
@@ -431,7 +427,7 @@
         margin: 0;
         padding: 21px 0;
     }
-    .sales {
+    /*.sales {
         background: #ffffff none repeat scroll 0 0;
         border: 1px solid #d4d9e3;
         display: inline-block;
@@ -503,7 +499,7 @@
         color: #fff;;
         opacity: 1;
         text-shadow: none;
-    }
+    }*/
     /*.modal-body input {
         border: 1px solid #d4d9e3;
         font-size: 14px;
@@ -542,7 +538,7 @@
         padding: 10px 15px 26px;
         text-align: right;
     }*/
-    .cancel {
+    /*.cancel {
         background: #0E1A35     ;
         border: medium none;
         border-radius: 100px;
@@ -566,7 +562,7 @@
     }
     .modal-header.login-header {
         border-top-left-radius: 5px;
-        border-top-right-radius: 5px;}
+        border-top-right-radius: 5px;}*/
     /*Main CSS*/
 
 
@@ -575,7 +571,7 @@
 
 
     @media only screen and (max-device-width: 767px) {
-        .login-logo img {
+        /*.login-logo img {
             margin: 0 auto;
         }
         .login-details .nav-tabs > li {
@@ -602,10 +598,10 @@
         .login-inner .form-btn {
             margin: 0;
             max-width: 180px;
-        }
-        .tab-content .tab-pane {
+        }*/
+        /*.tab-content .tab-pane {
             padding: 20px 0;
-        }
+        }*/
         #navigation .navi a {
             font-size: 14px;
             padding: 20px;
@@ -674,9 +670,9 @@
             padding-left: 20px !important;
             padding-right: 0;
     }
-        header .logo img {
+    /*    header .logo img {
             max-width: 125px !important;
-    }
+    }*/
 
     }
 
